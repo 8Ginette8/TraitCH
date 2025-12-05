@@ -7,9 +7,9 @@ Methods and plots pipelines for the TraitCH dataset. Contains:
   
 - Methods & plots pipelines for the TraitCH dataset:
   - Run R from the folder (select --> "open_r.bat")
-  - Run R in order to scripts to reproduce:
-    - TCH1_traits_imputation.R --> Imputation pipelines (
-    - TCH2_perct_missing.R --> Missing trait data information
+  - Run R scripts to reproduce pipelines:
+    - TCH1_traits_imputation.R --> Imputation pipelines (example outputs is available in --> "data/missRanger_imputed_traits")
+    - TCH2_perct_missing.R --> Missing trait data information (example outputs is available in --> "data/missRanger_evaluations")
     - TCH3_plot_figures.R --> How to plot sub-figures 1 & 4
     - TCH4_plot_IUCN_eu.R --> How to plot sub-figures 2
 
