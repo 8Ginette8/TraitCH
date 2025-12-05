@@ -1,6 +1,7 @@
 # TraitCH
+Methods and plots pipelines for the TraitCH dataset. Contains:
 
-- Contains TraitCH raw data --> "data/raw_traits"
+- TraitCH raw data --> "data/raw_traits"
   
 - TraitCH medata --> "traits_metadata.xlsx"
   
