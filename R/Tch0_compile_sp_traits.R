@@ -410,7 +410,7 @@ HABit = c("Habitat_water","Habitat_wetlands","Habitat_rocks","Habitat_grassland"
 #    	}
 # }
 # write.table(mammals.vert,"temp_mammals.txt",row.names=FALSE)
-mammals.vert = read.table("data/temp_compiled/temp_mammals.txt",header=TRUE)
+mammals.vert = read.table("data/temp/temp_mammals.txt",header=TRUE)
 
 # Format our table
 which.gbif = which(names(mammals.vert)%in%GB.col)
@@ -705,7 +705,7 @@ write.table(mammals.MM,"outputs/raw_traits/non_formated/s2z_raw_traits_mammals.t
 #     	}
 # }
 # write.table(reptiles.vert,"temp_reptiles.txt",row.names=FALSE)
-reptiles.vert = read.table("data/temp_compiled/temp_reptiles.txt",header=TRUE)
+reptiles.vert = read.table("data/temp/temp_reptiles.txt",header=TRUE)
 
 # Format our table
 which.gbif = which(names(reptiles.vert)%in%GB.col)
@@ -1003,7 +1003,7 @@ write.table(reptiles.MM,"outputs/raw_traits/non_formated/s2z_raw_traits_reptiles
 #      }
 # }
 # write.table(amphi.vert,"temp_amphi.txt",row.names=FALSE)
-amphi.vert = read.table("data/temp_compiled/temp_amphi.txt",header=TRUE)
+amphi.vert = read.table("data/temp/temp_amphi.txt",header=TRUE)
 
 # Format our table
 which.gbif = which(names(amphi.vert)%in%GB.col)
@@ -1282,7 +1282,7 @@ write.table(amphi.MM,"outputs/raw_traits/non_formated/s2z_raw_traits_amphibians.
 #     }
 # }
 # write.table(aves.vert,"temp_aves.txt",row.names=FALSE)
-aves.vert = read.table("data/temp_compiled/temp_aves.txt",header=TRUE)
+aves.vert = read.table("data/temp/temp_aves.txt",header=TRUE)
 
 # Format our table
 which.gbif = which(names(aves.vert)%in%GB.col)
@@ -1697,7 +1697,7 @@ write.table(aves.MM,"outputs/raw_traits/non_formated/s2z_raw_traits_aves.txt",ro
 #     }
 # }
 # write.table(fish.vert,"temp_fish.txt",row.names=FALSE)
-fish.vert = read.table("data/temp_compiled/temp_fish.txt",header=TRUE)
+fish.vert = read.table("data/temp/temp_fish.txt",header=TRUE)
 
 # Format our table
 which.gbif = which(names(fish.vert)%in%GB.col)
@@ -2074,10 +2074,10 @@ write.table(fish.MM,"outputs/raw_traits/non_formated/s2z_raw_traits_fishes.txt",
 #     }
 # }
 # write.table(plants.vert,"temp_plants.txt",row.names=FALSE)
-plants.vert = read.table("data/temp_compiled/temp_plants.txt",header=TRUE)
+plants.vert = read.table("data/temp/temp_plants.txt",header=TRUE)
 
 # Remove the Mosses
-bryo.vert = read.table("data/temp_compiled/temp_bryo.txt",header=TRUE)
+bryo.vert = read.table("data/temp/temp_bryo.txt",header=TRUE)
 plants.vert = plants.vert[!plants.vert$species%in%bryo.vert$species,]
 
 # Format our table
@@ -2487,7 +2487,7 @@ write.table(plants.MM,"outputs/raw_traits/non_formated/s2z_raw_traits_plants.txt
 #     }
 # }
 # write.table(bryo.vert,"temp_bryo.txt",row.names=FALSE)
-bryo.vert = read.table("data/temp_compiled/temp_bryo.txt",header=TRUE)
+bryo.vert = read.table("data/temp/temp_bryo.txt",header=TRUE)
 
 # Remove the vascular plants
 bryo.vert = bryo.vert[!bryo.vert$gbif_phylum%in%"Tracheophyta",]
@@ -3027,7 +3027,7 @@ write.table(bryo.MM,"outputs/raw_traits/non_formated/s2z_raw_traits_bryophytes.t
 #         }
 # }
 # write.table(spider.vert,"temp_spider.txt",row.names=FALSE)
-spider.vert = read.table("data/temp_compiled/temp_spider.txt",header=TRUE)
+spider.vert = read.table("data/temp/temp_spider.txt",header=TRUE)
 
 # Remove non spiders
 not.spiders = c("Amblypygi","Holothyrida","Pseudoscorpiones","Sarcoptiformes","Schizomida","Scorpiones")
@@ -3361,7 +3361,7 @@ write.table(spider.MM,"outputs/raw_traits/non_formated/s2z_raw_traits_spiders.tx
 #     }
 # }
 # write.table(coleo.vert,"temp_coleo.txt",row.names=FALSE)
-coleo.vert = read.table("data/temp_compiled/temp_coleo.txt",header=TRUE)
+coleo.vert = read.table("data/temp/temp_coleo.txt",header=TRUE)
 
 # Format our table
 which.gbif = which(names(coleo.vert)%in%GB.col)
@@ -3655,7 +3655,7 @@ write.table(coleo.MM,"outputs/raw_traits/non_formated/s2z_raw_traits_coleoptera.
 #     }
 # }
 # write.table(odonata.vert,"temp_odonata.txt",row.names=FALSE)
-odonata.vert = read.table("data/temp_compiled/temp_odonata.txt",header=TRUE)
+odonata.vert = read.table("data/temp/temp_odonata.txt",header=TRUE)
 
 # Format our table
 which.gbif = which(names(odonata.vert)%in%GB.col)
@@ -3961,7 +3961,7 @@ write.table(odonata.MM,"outputs/raw_traits/non_formated/s2z_raw_traits_odonata.t
 #      }
 # }
 # write.table(ortho.vert,"temp_ortho.txt",row.names=FALSE)
-ortho.vert = read.table("data/temp_compiled/temp_ortho.txt",header=TRUE)
+ortho.vert = read.table("data/temp/temp_ortho.txt",header=TRUE)
 
 # Format our table
 which.gbif = which(names(ortho.vert)%in%GB.col)
@@ -4441,7 +4441,7 @@ write.table(ortho.MM,"outputs/raw_traits/non_formated/s2z_raw_traits_orthoptera.
 #      }
 # }
 # write.table(lepi.vert,"temp_lepi.txt",row.names=FALSE)
-lepi.vert = read.table("data/temp_compiled/temp_lepi.txt",header=TRUE)
+lepi.vert = read.table("data/temp/temp_lepi.txt",header=TRUE)
 
 # Format our table
 which.gbif = which(names(lepi.vert)%in%GB.col)
@@ -4682,7 +4682,7 @@ write.table(lepi.MM,"outputs/raw_traits/non_formated/s2z_raw_traits_lepidoptera.
 #     }
 # }
 # write.table(bees.vert,"temp_wasps.txt",row.names=FALSE)
-bees.vert = read.table("data/temp_compiled/temp_bees_wasps.txt",header=TRUE)
+bees.vert = read.table("data/temp/temp_bees_wasps.txt",header=TRUE)
 
 # Format our table
 which.gbif = which(names(bees.vert)%in%GB.col)
@@ -4936,7 +4936,7 @@ write.table(bees.MM,"outputs/raw_traits/non_formated/s2z_raw_traits_bees_wasps.t
 #     }
 # }
 # write.table(fungi.vert,"temp_fungi.txt",row.names=FALSE)
-fungi.vert = read.table("data/temp_compiled/temp_fungi.txt",header=TRUE)
+fungi.vert = read.table("data/temp/temp_fungi.txt",header=TRUE)
 
 # Format our table
 which.gbif = which(names(fungi.vert)%in%GB.col)
@@ -5303,7 +5303,7 @@ write.table(fungi.MM,"outputs/raw_traits/non_formated/s2z_raw_traits_fungi.txt",
 #     }
 # }
 # write.table(moll.vert,"temp_molluscs.txt",row.names=FALSE)
-moll.vert = read.table("data/temp_compiled/temp_molluscs.txt",header=TRUE)
+moll.vert = read.table("data/temp/temp_molluscs.txt",header=TRUE)
 
 # Remove Copepods
 moll.vert = moll.vert[!moll.vert$gbif_class%in%c("Cephalopoda","Copepoda"),]
@@ -5699,7 +5699,7 @@ write.table(moll.MM,"outputs/raw_traits/non_formated/s2z_raw_traits_molluscs.txt
 #     }
 # }
 # write.table(lichen.vert,"temp_lichens.txt",row.names=FALSE)
-lichen.vert = read.table("data/temp_compiled/temp_lichens.txt",header=TRUE)
+lichen.vert = read.table("data/temp/temp_lichens.txt",header=TRUE)
 
 # Format our table
 which.gbif = which(names(lichen.vert)%in%GB.col)
@@ -5989,7 +5989,7 @@ write.table(lichen.MM,"outputs/raw_traits/non_formated/s2z_raw_traits_lichens.tx
 #       }
 # }
 # write.table(ept.vert,"temp_ept.txt",row.names=FALSE)
-ept.vert = read.table("data/temp_compiled/temp_ept.txt",header=TRUE)
+ept.vert = read.table("data/temp/temp_ept.txt",header=TRUE)
 
 # Format our table
 which.gbif = which(names(ept.vert)%in%GB.col)
