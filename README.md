@@ -1,6 +1,10 @@
 # TraitCH
 
-Data & pipelines for the TraitCH dataset: TraitCH raw version ("outputs/raw_traits"), TraitCH imputed version ("outputs/missRanger_imputed_traits"), TraitCH evaluation ("outputs/missRanger_evaluations"), TraitCH medata ("traits_metadata.xlsx")
+Data & pipelines for the TraitCH dataset:
+--> TraitCH raw version ("outputs/raw_traits")
+--> TraitCH imputed version ("outputs/missRanger_imputed_traits")
+--> TraitCH evaluation ("outputs/missRanger_evaluations")
+--> TraitCH medata ("traits_metadata.xlsx")
 
 <img width="594" height="665" alt="image" src="https://github.com/user-attachments/assets/9197b527-3bda-4919-a85d-fa44cde71bb8" />
 
