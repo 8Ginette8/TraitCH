@@ -10,7 +10,6 @@
 # Description: Create new rasters representing the main 8 groups and plot this on
 # a same figure with the custom legend
 # 
-#
 # ###################################################################################
 
 ### ==================================================================

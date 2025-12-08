@@ -11,7 +11,6 @@
 # Cannot be run due to copyright restriction. See output folder
 # 'data\x_50km_geo_ext' for mapping results. 
 # 
-#
 # ####################################################################
 ### ==================================================================
 ### Initialise system
