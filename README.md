@@ -10,7 +10,7 @@ Data & pipelines for the TraitCH dataset:
 
 Contains also:
 
-- Comprehensive European species checklist for 17 taxonomic groups:
+- Comprehensive European species checklist (~210,000) for 17 taxonomic groups:
   - Apocrita
   - Arachnida (Araneae & Opiliones)
   - Coleoptera
