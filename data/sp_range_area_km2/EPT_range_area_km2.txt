@@ -1,0 +1,24 @@
+"species"	"range.size.km2"
+"Eusthenia nothofagi"	1892.43762074781
+"Leptoperla cacuminis"	0.483465382158332
+"Riekoperla darlingtoni"	3.63954144917631
+"Hydropsyche tobiasi"	510.015049374172
+"Limnephilus atlanticus"	66.3398190746553
+"Perlodes mortoni"	141402.65999482
+"Brachyptera putata"	9787.90648794354
+"Lachlania dencyanna"	237.647887397005
+"Palingenia longicauda"	75447.3863981602
+"Kamimuria coreana"	75230.9167527785
+"Megaleuctra saebat"	1259.90004805044
+"Scopura laminata"	3881.74392454775
+"Yoraperla han"	3498.20435325045
+"Caenis tuba"	3411.87417358685
+"Goera jaewoni"	867.026002509654
+"Amphinemura baei"	846.651173851373
+"Amphinemura rai"	7833.19866163671
+"Protonemura villosa"	19788.5404764673
+"Nemoura espera"	787.813334623013
+"Nemoura gemma"	1097.69914516917
+"Scopura gaya"	1516.98774360199
+"Scopura jiri"	2585.13629460812
+"Scopura scorea"	423.283650925135
