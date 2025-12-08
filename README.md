@@ -4,10 +4,14 @@
 
 Data & pipelines for the TraitCH dataset. Contains:
 
-- TraitCH raw version                       --> "outputs/raw_traits"
-- TraitCH imputed version                   --> "outputs/missRanger_imputed_traits"
-- TraitCH evaluation                        --> "outputs/missRanger_evaluations"
-- TraitCH medata                            --> "traits_metadata.xlsx"
+- TraitCH raw version
+    "outputs/raw_traits"
+- TraitCH imputed version
+    "outputs/missRanger_imputed_traits"
+- TraitCH evaluation
+    "outputs/missRanger_evaluations"
+- TraitCH medata
+    "traits_metadata.xlsx"
 
 - Comprehensive European species checklist for 17 taxonomic groups:
   - Apocrita
