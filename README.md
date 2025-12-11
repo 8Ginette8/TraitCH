@@ -1,4 +1,4 @@
-# TraitCH
+# TraitCH: a multi-taxa functional trait dataset for Switzerland and Europe
 
 <img width="594" height="665" alt="image" src="https://github.com/user-attachments/assets/9197b527-3bda-4919-a85d-fa44cde71bb8" />
 
