@@ -11,23 +11,7 @@ Data & pipelines for the TraitCH dataset:
 Contains also:
 
 - Comprehensive European species checklist (~210,000) for 17 taxonomic groups:
-  - Apocrita
-  - Arachnida (Araneae & Opiliones)
-  - Coleoptera
-  - Ephemeroptera/Plecoptera/Trichoptera
-  - Lepidoptera
-  - Odonata
-  - Orthoptera
-  - Bryobiotina
-  - Fungi (Swiss checklist only)
-  - Lichen (Swiss checklist only)
-  - Mollusca (Gasteropoda & Bivalvia)
-  - Pisces (Freshwater)
-  - Amphibia
-  - Aves
-  - Mammalia
-  - Reptilia
-  - Tracheophyta
+Apocrita, Arachnida (Araneae & Opiliones), Coleoptera, Ephemeroptera/Plecoptera/Trichoptera, Lepidoptera, Odonata, Orthoptera, Bryobiotina, Fungi (Swiss checklist only), Lichen (Swiss checklist only), Mollusca (Gasteropoda & Bivalvia), Pisces (Freshwater), Amphibia, Aves, Mammalia, Reptilia, Tracheophyta
   
 - Methods & plots pipelines for the TraitCH dataset:
   - Run R from the folder (select --> "open_r.bat" or "open_r_maclinus.sh")
