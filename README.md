@@ -1,5 +1,7 @@
 # TraitCH
 
+Here, we present TraitCH, a comprehensive dataset of functional traits spanning over 71,874 species (≥ 1 functional trait) across 17 major taxonomic groups: Apocrita (2,278), Arachnida (3,728), Coleoptera (8,565), Ephemeroptera/Plecoptera/Trichoptera (1,349), Lepidoptera (3,757), Odonata (234), Orthoptera (1,283), Bryobiotina (2,285), Fungi (12,469), Lichen (2,435), Mollusca (7,493), Pisces (838), Amphibia (151), Aves (1,356), Mammalia (522), Reptilia (298), and Tracheophyta (22,833). Compiled from 43 published and unpublished sources, TraitCH provides a robust representation of total species richness and composition for Switzerland and Europe.
+
 Data & pipelines for the TraitCH dataset:
 - TraitCH raw version ("outputs/raw_traits")
 - TraitCH imputed version ("outputs/missRanger_imputed_traits")
@@ -11,7 +13,7 @@ Data & pipelines for the TraitCH dataset:
 Contains also:
 
 - Comprehensive European species checklist (~210,000) for 17 taxonomic groups:
-Apocrita, Arachnida (Araneae & Opiliones), Coleoptera, Ephemeroptera/Plecoptera/Trichoptera, Lepidoptera, Odonata, Orthoptera, Bryobiotina, Fungi (Swiss checklist only), Lichen (Swiss checklist only), Mollusca (Gasteropoda & Bivalvia), Pisces (Freshwater), Amphibia, Aves, Mammalia, Reptilia, Tracheophyta
+**(1)** Apocrita, **(2)** Arachnida (Araneae & Opiliones), **(3)** Coleoptera, **(4)** Ephemeroptera/Plecoptera/Trichoptera, **(5)** Lepidoptera, **(6)** Odonata, **(7)** Orthoptera, **(8)** Bryobiotina, **(9)** Fungi (Swiss checklist only), **(10)** Lichen (Swiss checklist only), **(11)** Mollusca (Gasteropoda & Bivalvia), **(12)** Pisces (Freshwater), **(13)** Amphibia, **(14)** Aves, **(15)** Mammalia, **(16)** Reptilia, **(17)** Tracheophyta
   
 - Methods & plots pipelines for the TraitCH dataset:
   - Run R from the folder (select --> "open_r.bat" or "open_r_maclinus.sh")
