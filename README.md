@@ -6,7 +6,7 @@ Here, we present TraitCH, a comprehensive dataset of functional traits spanning 
 
 Data & pipelines for the TraitCH dataset:
 - TraitCH raw version ("outputs/raw_traits")
-- TraitCH imputed version ("outputs/missRanger_imputed_traits")
+- TraitCH imputed version ("outputs/missRanger_imputed_traits") -- "S_MEAN*" files are the model averaged (reference one)
 - TraitCH evaluation ("outputs/missRanger_evaluations")
 - TraitCH medata ("traits_metadata.xlsx")
 
