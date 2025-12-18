@@ -24,3 +24,7 @@ Contains also:
     - Tch3_compile_IUCN.R                    --> Pipelines to create the diversity IUCN maps
     - Tch4_plot_figures.R                    --> How to plot Fig. 1 & 4
     - Tch5_plot_IUCN_eu.R                    --> How to plot Fig. 2
+
+# Citation
+
+Chauvier, Y., Adde, A., Bergamini, A., Rambold, G., Stofer, S., Graf, N., Gross, A., Blaser, S., Roberts, S. P. M., Potts, S., Casanelles Abella, J., Moretti, M., Nobis, M., Theurillat, J.-P., Hofmann, H., Hartwig, A.-M., Claude, F., Saucy, G., & Altermatt, F. (2025). TraitCH: a multi-taxa functional trait dataset for Switzerland and Europe. Zenodo. https://doi.org/10.5281/zenodo.15063844
